@@ -1,0 +1,20 @@
+<TabView selectedIndex="0" [(ngModel)]="tabIndex" selectedColor="#FF0000">
+  <!-- page1 action bar -->
+  <ActionBar *ngIf="tabIndex == 0" title="Page1" icon="">
+    <ActionItem text="Left1"></ActionItem>
+    <ActionItem text="Right1" ios.position="right"></ActionItem>
+  </ActionBar>
+  <!-- page2 action bar -->
+  <ActionBar *ngIf="tabIndex == 1" title="Page2" icon="">
+    <ActionItem text="Left2"></ActionItem>
+    <ActionItem text="Right2" ios.position="right"></ActionItem>
+  </ActionBar>
+  <!-- Tab1 and Page1 Content -->
+  <StackLayout *tabItem="{title: 'Page1'}">
+    <page1></page1>
+  </StackLayout>
+  <!-- Tab2 and Page2 Content -->
+  <StackLayout *tabItem="{title: 'Page2'}">
+    <page2></page2>
+  </StackLayout>
+</TabView>
