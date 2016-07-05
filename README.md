@@ -3,5 +3,5 @@ This repository contains nativeScript-angular2 tabview seed app with 2 page view
 
 ##Installation
 - Install all NPM Packages using `npm install`
-- Add iOS/Andorid Platform using `tns platform add <PLATFROM>`
+- Add iOS/Andorid Platform using `tns platform add <PLATFROM>` or `tns install`
 - Run the app using `tns run <PLATFORM>` or using other options.

@@ -1,7 +1,5 @@
 {
-	"name": "Abdul Al-Haimi",
-	"email": "a.alhaimi1@gmail.com",
-	"version": "1.0.0",
+	"name": "Nativescript-Angular2-Tabview-Starter",
 	"description": "NativeScript-Angular2 TabView Starter Application with basic routing",
 	"license": "MIT",
 	"readme": "NativeScript Application",
