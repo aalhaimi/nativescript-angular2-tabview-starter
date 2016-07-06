@@ -5,12 +5,12 @@
     <ActionItem text="Right1" ios.position="right"></ActionItem>
   </ActionBar>
   <!-- page2 action bar -->
-  <ActionBar *ngIf="tabIndex == 1" title="Page2" icon="">
+  <ActionBar *ngIf="tabIndex == 1" title="Page 2" icon="">
     <ActionItem text="Left2"></ActionItem>
     <ActionItem text="Right2" ios.position="right"></ActionItem>
   </ActionBar>
   <!-- Tab1 and Page1 Content -->
-  <StackLayout *tabItem="{title: 'Page1'}">
+  <StackLayout *tabItem="{title: 'Page1', iconSource: 'res://icon'}">
     <page1></page1>
   </StackLayout>
   <!-- Tab2 and Page2 Content -->
