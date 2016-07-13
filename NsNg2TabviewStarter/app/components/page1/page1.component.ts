@@ -4,8 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'page1',
   templateUrl: './components/page1/page1.html',
 })
-export class Page1Component implements OnInit {
+export class Page1Component {
   constructor() {  }
 
-  ngOnInit() {}
 }

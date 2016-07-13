@@ -1,10 +1,11 @@
 ﻿button, label, stack-layout {
-    horizontal-align: center;    
+    horizontal-align: center;
 }
 
 button {
     font-size: 36;
 }
+
 
 .title {
     font-size: 30;
@@ -16,4 +17,19 @@ button {
     color: #284848;
     text-align: center;
     margin: 0 20;
-} 
+}
+
+.fa {
+  font-family: 'FontAwesome', 'fontawesome-webfont';
+  font-size:48;
+}
+
+.ion {
+  font-family: 'Ionicons', 'ionicons';
+  color: grey;
+  font-size:35;
+
+}
+.ion-clicked {
+  color: red;
+}

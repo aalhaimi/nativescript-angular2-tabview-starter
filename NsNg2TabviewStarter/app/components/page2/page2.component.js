@@ -3,7 +3,6 @@ var core_1 = require('@angular/core');
 var Page2Component = (function () {
     function Page2Component() {
     }
-    Page2Component.prototype.ngOnInit = function () { };
     Page2Component = __decorate([
         core_1.Component({
             selector: 'page2',
